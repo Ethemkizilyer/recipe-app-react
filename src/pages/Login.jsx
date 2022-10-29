@@ -45,7 +45,7 @@ const Login = () => {
 
         <div className="mb-3">
           <label>Password</label><br />
-          <input type="text" placeholder="Password" onChange={(e) => setAs(e.target.value)}/>
+          <input type="password" placeholder="Password" onChange={(e) => setAs(e.target.value)}/>
         </div>
 
         <button className='btn btn-primary'
