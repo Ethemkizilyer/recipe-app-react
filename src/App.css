@@ -1,0 +1,31 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+.ethem {
+  background-image: url(./assets/default-image.jpg);
+  width: 100%;
+  height: 100vh;
+  background-position: center;
+  /* background-repeat: no-repeat; */
+  background-size: contain;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.eth {
+  background: rgb(96, 172, 155);
+  padding: 1rem;
+  border-radius: 35px;
+  text-align: center;
+}
+.fg {
+  background-color: aquamarine;
+  height: 90vh;
+  padding: 1rem;
+  text-align: center;
+}
